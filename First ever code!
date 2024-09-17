@@ -1,0 +1,54 @@
+** start of undefined **
+
+<!Doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1 id="title">Free Car Insurance Quote</h1>
+<p id="description">Claim your free quote now</p>
+<fieldset>
+<form id="survey-form">
+  
+<input id="name" type="text" placeholder="Enter your name" required></input><label id="name-label">Name</label>
+
+<input id="email" type="email" placeholder="Enter your email" required><label id="email-label">Email</label>
+
+<input placeholder="Enter your age" id="number" type="number" min="17" max="80"><label id="number-label">Age</label>
+<legend>What is your employment status?</legend>
+
+<select id="dropdown">
+  <placeholder> Please select..</placeholder>
+<option>Employed</option>
+<option>Unemployed</option>
+<option>Self-Employed</option>
+</select>
+  <legend> Do you own the car?</legend>
+<label><input value="yes" name="own" type="radio" checked>Yes</label>
+<label><input value="no" name="own" type="radio">No</label>
+
+  <label><input value="1" type="checkbox"> Do not use my email for contacting</label>
+  <label><input value="2" type="checkbox" required> I accept the terms and conditions</label>
+  <label><textarea placeholder="Any questions?" ></textarea><label>
+  <label><input id="submit" type="submit"</label>
+</form>
+
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+label{display:block;}
+
+input{
+  margin: 5px 0 0 0;
+  width: 100%;
+  min-height: 0.5em;
+}
+
+** end of undefined **
